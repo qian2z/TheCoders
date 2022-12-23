@@ -1,0 +1,70 @@
+#Home1, #cu {
+  text-decoration: none;
+  color: darkblue;
+}
+
+body {
+  background: linear-gradient(-45deg, #b4dcff, #ccf1ed, #cbffe6, #9ecce6);
+}
+
+#Home1:hover, #cu:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+#title1 {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Arial";
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.people {
+  width: 265px;
+  height: 265px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%
+}
+
+table {
+  margin: auto;
+}
+
+p {
+  font-family: "Arial";
+}
+
+#name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#div1 {
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  padding: 20px 150px;
+}
+
+a {
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#quote {
+  font-family: Brush Script MT;
+  font-size: 36px;

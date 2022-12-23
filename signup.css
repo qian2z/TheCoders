@@ -1,0 +1,149 @@
+form {
+  margin-left: 10px;
+  width: auto;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 4px solid #f5f3ba;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+#year {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fce883;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#interest {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fce883;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#check {
+  width: auto;
+  padding: 0px;
+  float: left;
+}
+
+table {
+  margin: auto;
+}
+
+input[type=radio] {
+  margin-bottom: 15px;
+  width: auto;
+}
+
+#male {
+  margin-left: 10px;
+}
+
+#female {
+  background-color: white;
+  margin-left: 100px;
+}
+
+#mmale, #ffemale {
+  margin-left: 5px;
+  background-color: white;
+}
+
+input[type=submit] {
+  background-color: #fed000;
+  border: 2px solid #fed000;
+}
+
+#message {
+  display: none;
+  background: #f8f7d1;
+  padding: 20px;
+}
+
+p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  content: "\2713";
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  content: "\2717";
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 15px;
+  background-color: #fffdd0;
+  padding: 10px;
+  margin-left: -16px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#see {
+  font-size: 15px;
+  background-color: white;
+  padding: 0px;
+  margin-left: 0px;
+  font-family: serif;
+  font-weight: normal;
+}
+
+#ffname, #llname {
+  margin-left: 0px;
+}
+
+.fa-key, .fa-phone, .fa-envelope, .fa-user, .fa-user-secret, .fa-transgender,
+.fa-graduation-cap, .fa-star {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background-color: #fffdd0;
+}
+
+h1, h2, h4 {
+  font-family: cursive;
+}
+
+#see {
+  color: grey;
+  float: left;
+}
+
+#signupbtn {
+  font-size: 20px;
+  font-family: cursive;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#signupbtn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

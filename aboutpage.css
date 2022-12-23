@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(-45deg, #b4dcff, #ccf1ed, #cbffe6, #9ecce6);
+}
+
+h1 {
+  font-family: "Arial";
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  width: 500px;
+}
+
+a {
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#h {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#about {
+  padding: 30px;
+  font-family: "Arial";
+  background-color: #8fe3d9;
+  text-align: justify;
+  font-size: 18px;
+}
+
+#rules {
+  padding: 30px;
+  font-family: "Arial";
+  font-size: 18px;
+}
+
+#Home1, #Au {
+  text-decoration: none;
+  color: darkblue;
+}
+
+#Home1:hover, #Au:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}

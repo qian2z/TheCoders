@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Coders | Sign Up</title>
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<header>
+    <div class="header">
+        <ul class="horinavi">
+            <li><img src="logo_remove.png" alt="The Coders" width="60px" height="60px" id="coders_logo"></li>
+            <li><a href="Homepage.html" id="home">Home</a></li>
+            <li><a href="Aboutpage.html">About Us</a></li>
+            <li><a href="Eventpage.html">Events</a></li>
+            <li><a href="contactpage.html">Contact Us</a></li>
+            <li><a href="find-your-peers.php">FIND YOUR PEERS!</a></li>
+            <li id="login"><a href="loginpage2.html">Login</a></li>
+            <li id="signup"><a href="signuppage.html">Sign Up</a></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <table>
+        <tr>
+            <td>
+
+                <div class="content">
+                    <h2>The Coders_HappyU University Programming Club</h2>
+                    <img src="girl.gif" alt="girl working" width="650px" height="500px">
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <form action="signup-successfully.php" method="post" id="form">
+                    <h1>Welcome to The Family</h1>
+                    <h4>Registration</h4>
+                    <div class="input-container">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <label id="fullname">Full Name</label><br><br>
+                    </div>
+                    <label id="ffname" for="fname">First Name</label>
+                    <input id="fname" type="text" name="fname" placeholder="First Name" required>
+                    <label id="llname" for="lname">Last Name</label>
+                    <input id="lname" type="text" name="lname" placeholder="Last Name" required>
+                    <br><br>
+                    <div class="input-container">
+                        <i class="fa fa-transgender" aria-hidden="true"></i>
+                        <label>Gender</label>
+                        <div id="ggender">
+                            <input type="radio" id="male" name="gender" value="Male">
+                            <label id="mmale" for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label id="ffemale" for="female">Female</label><br>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="input-container">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        <label for="year">Year Of Study</label>
+                        <select id="year" name="year">
+              <option value="Foundation">Foundation</option>
+              <option value="Year 1">Year 1</option>
+              <option value="Year 2">Year 2</option>
+              <option value="Year 3">Year 3</option>
+              <option value="Year 4">Year 4</option>
+            </select>
+                    </div>
+                    <br><br>
+                    <div class="input-container">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <label for="email">HappyU University Email Address</label>
+                        <input id="email" type="text" name="email" placeholder="xxxx@hu.ac.uk" required>
+                    </div>
+                    <br>
+                    <div class="input-container">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <label for="phoneNum">Phone Number</label>
+                        <input id="phoneNum" type="text" name="phoneNum" placeholder="010-234 2345" required>
+                    </div>
+
+                    <br>
+                    <div class="input-container">
+                        <i class="fa fa-user-secret" aria-hidden="true"></i>
+                        <label for="username">Username</label>
+                        <input id="username" type="text" name="username" placeholder="DarkKnight120" required>
+                    </div>
+                    <br>
+
+                    <div class="input-container">
+                        <i class="fa fa-key" aria-hidden="true"></i>
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase and lowercase letter, and at least 8 or more characters" placeholder="********" required>
+
+                        <div id="message">
+                            <h3>Password must contain the following:</h3>
+                            <p id="small" class="invalid">A lowercase letter</p>
+                            <p id="capital" class="invalid">An uppercase letter</p>
+                            <p id="number" class="invalid">A number </p>
+                            <p id="length" class="invalid">Minimum 8 characters</p>
+                        </div>
+                        <script src="password.js"></script>
+                        <br>
+                        <div class="tick">
+                            <input type="checkbox" id="check" name="check" onclick="seePassword()">
+                            <label id="see" for="check">Show Password</label>
+                            <script src="loginpass.js"></script>
+                        </div>
+                        <br><br><br>
+                        <div class="input-container">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <label for="interest">Interest Topics</label>
+                            <select id="interest" name="interest">
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="R">R</option>
+              </select>
+                        </div>
+
+                    </div>
+                    <br><br>
+                    <input type="submit" id="signupbtn" name="signup" value="Sign Up">
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <div class="address">
+            <p>HappyU University</p>
+            <p>1, Jalan Venna P5/2, Precinct 5,</p>
+            <p>62200 Putrajaya, Wilayah Persekutuan Putrajaya</p>
+        </div>
+        <div class="copyright">
+            <p id="copyright">Copyright @ 2021 The Coders</p>
+        </div>
+    </div>
+</footer>
+
+</html>

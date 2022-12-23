@@ -1,0 +1,44 @@
+#div1 {
+  margin-left: 20px;
+  align-content: center;
+  text-align: center;
+  font-family: cursive;
+  color: white;
+}
+
+table {
+  margin: auto;
+}
+
+#Home1, #Events {
+  text-decoration: none;
+  color: darkblue;
+}
+
+#Home1:hover, #Events:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+#e {
+  font-family: "Arial";
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#g {
+  text-align: left;
+  font-weight: bold;
+}
+
+#c {
+  color: darkblue;
+}
+
+#c:hover {
+  text-decoration: none;
+}
+
+#c:active {
+  color: darkblue;
+}
